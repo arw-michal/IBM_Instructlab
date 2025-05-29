@@ -1,0 +1,83 @@
+version: 3
+domain: artificial_intelligence
+created_by: arw-michal
+seed_examples:
+  - context: |
+      **IBM watsonx.ai** is a next-generation enterprise studio for AI builders. [watsonx.ai](https://www.ibm.com/docs/en/software-hub/5.1.x?topic=services-watsonxai)  
+      It is part of the broader **IBM watsonx** platform and enables users 
+      to train, validate, tune, and deploy AI [models](https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/fm-models.html?context=wx), 
+      including [foundation models](https://en.wikipedia.org/wiki/Foundation_model) and machine learning workflows. The platform supports **open-source frameworks** 
+      and **pre-trained models**, helping teams scale trustworthy AI in production.
+
+      watsonx.ai also integrates with **watsonx.data** ([docs](https://www.ibm.com/docs/en/watsonx/watsonxdata/1.1.x?topic=watsonxdata-overview)) for data lakehouse capabilities 
+      and **watsonx.governance** ([docs](https://www.ibm.com/docs/en/watsonx/saas?topic=governing-ai)) for responsible AI practices. The tool provides both 
+      **code-first** and **no-code** interfaces, catering to data scientists, machine 
+      learning engineers, and business analysts.
+
+      Organizations use watsonx.ai for tasks such as **natural language processing (NLP)**, 
+      **computer vision**, and **predictive analytics** across various industries 
+      including finance, healthcare, and supply chain.
+    questions_and_answers:
+      - question: |
+          What is IBM watsonx.ai?
+        answer: |
+          IBM watsonx.ai is an enterprise AI studio that allows users to build, train, and deploy machine learning and foundation models.
+      - question: |
+          What types of AI tasks can be performed using watsonx.ai?
+        answer: |
+          Users can perform tasks such as natural language processing, computer vision, and predictive analytics.
+      - question: |
+          Who is watsonx.ai intended for?
+        answer: |
+          watsonx.ai is designed for data scientists, ML engineers, and business analysts through both code-first and no-code interfaces.
+  - context: |
+      IBM watsonx.ai is a next-generation enterprise studio designed to help organizations train, validate, tune, and deploy both traditional machine learning (ML) 
+      and generative AI models. It is one of the three core components of the IBM watsonx platform, alongside watsonx.data and watsonx.governance.
+      The platform offers an intuitive, open interface supporting both code-first and no-code users, and integrates a library of foundation models (FMs), 
+      including IBM Granite models and open-source LLMs such as Llama and Mistral. These models are pre-trained on diverse, high-quality enterprise data 
+      and are optimized for tasks like code generation (fm.code), natural language processing (fm.NLP), and geospatial analysis (fm.geospatial).
+      watsonx.ai helps organizations accelerate AI development by simplifying the AI lifecycle—from data preparation and model training to deployment and monitoring. 
+      It enables enterprises to operationalize trusted AI by leveraging secure, governed data, and provides tools for prompt tuning, fine-tuning, and prompt engineering.
+      As part of a broader AI and data platform, watsonx.ai integrates seamlessly with watsonx.data (a data lakehouse for governed AI workloads) and watsonx.governance 
+      (for managing model risk and compliance), supporting real-time collaboration across data science teams and enabling scalable, responsible AI for enterprise use cases.
+    questions_and_answers:- question: |
+          What types of models are included in watsonx.ai?
+        answer: |
+          watsonx.ai includes IBM Granite foundation models and open-source models like Llama and Mistral.
+      - question: |
+          What are some foundation model tasks supported in watsonx.ai?
+        answer: |
+          Tasks include code generation, natural language processing, and geospatial analysis.
+      - question: |
+          What tools are available for model customization?
+        answer: |
+          Tools include prompt tuning, fine-tuning, and prompt engineering.
+      - question: |
+          How does watsonx.ai simplify the AI lifecycle?
+        answer: |
+          It streamlines data prep, model training, deployment, and monitoring within a single studio.
+      - question: |
+          How does watsonx.ai support responsible AI?
+        answer: |
+          It integrates with watsonx.governance to manage model risk and enforce compliance.
+       - context: |
+      watsonx.ai delivers key benefits to businesses such as accelerated development with pre-trained models, enhanced productivity via automation, scalability across environments, 
+      and trusted AI through governance. It supports innovation across industries like customer service, IT operations, and environmental management.
+    questions_and_answers:
+      - question: How does watsonx.ai accelerate AI development?
+        answer: By using pre-trained models and simplifying the development process.
+      - question: What productivity improvements does watsonx.ai enable?
+        answer: It automates repetitive tasks and speeds up time to resolution in IT operations.
+      - question: In what industries is watsonx.ai commonly used?
+        answer: It is used in customer service, IT operations, and environmental risk management.
+  - context: |
+      watsonx.ai integrates with watsonx.data and watsonx.governance to form a comprehensive AI ecosystem. 
+      watsonx.data provides a secure, scalable lakehouse for AI workloads, while watsonx.governance helps enforce transparency 
+      and compliance with AI ethics and regulatory standards.
+    questions_and_answers:
+      - question: How does watsonx.ai benefit from watsonx.data?
+        answer: watsonx.data enables secure and scalable data access for AI workloads.
+      - question: What is the role of watsonx.governance in this ecosystem?
+        answer: It ensures model transparency, ethics, and compliance with regulations.
+      - question: What advantage does the integration of all watsonx components offer?
+        answer: It creates a unified platform for trusted, enterprise-grade AI development

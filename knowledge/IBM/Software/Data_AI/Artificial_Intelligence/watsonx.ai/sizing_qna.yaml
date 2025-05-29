@@ -1,0 +1,123 @@
+version: 3
+domain: artificial_intelligence
+created_by: arw-michal
+seed_examples:
+- context: |
+    A small use case of IBM watsonx.ai is sized to support up to 8 total NVIDIA A100 or H100 80GB GPUs. Customers must provide their own GPUs for use in foundation model (FM) instances and prompt tuning. 
+    One GPU is dedicated specifically to prompt tuning jobs through the Tuning Studio.
+
+    The remaining 7 GPUs can be allocated in different ways for model instances. For example:
+    - 3 medium model instances (each requiring 2 GPUs) and 1 small instance (1 GPU)
+    - 1 large model instance (4 GPUs) and 3 small instances (1 GPU each)
+
+    This configuration supports:
+    - Up to 250 concurrent users in the Prompt Lab
+    - 5 active machine learning model deployments
+    - 5 active JupyterLab or notebook environments
+
+    Other model configurations may require verification of Virtual Private Cloud (VPC) requirements in the Custom Sizing section.
+  questions_and_answers:
+    - question: |
+        How many GPUs are supported in the small use case configuration of watsonx.ai?
+      answer: |
+        The small use case supports up to 8 NVIDIA A100 or H100 80GB GPUs.
+    - question: |
+        How many GPUs are reserved for prompt tuning?
+      answer: |
+        1 GPU is dedicated to prompt tuning jobs via the Tuning Studio.
+    - question: |
+        What are example GPU allocations for model instances in the small use case?
+      answer: |
+        Two examples include: (1) 3 medium instances (2 GPUs each) and 1 small instance (1 GPU), or (2) 1 large instance (4 GPUs) and 3 small instances (1 GPU each).
+    - question: |
+        How many concurrent users are supported in the Prompt Lab?
+      answer: |
+        Up to 250 concurrent users are supported.
+    - question: |
+        How many active ML deployments and notebooks are supported?
+      answer: |
+        The setup supports 5 active machine learning model deployments and 5 active JupyterLab or notebook environments.
+    - question: |
+        Can other GPU configurations be used?
+      answer: |
+        Yes, alternative GPU configurations are possible through custom sizing, but VPC requirements should be verified.
+- context: |
+    A scaled deployment of IBM watsonx.ai is designed to support up to 14 total NVIDIA A100 or H100 80GB GPUs. Customers are required to provide their own GPUs, which are allocated between foundation model instances and prompt tuning. One GPU is dedicated to prompt tuning jobs via the Tuning Studio.
+
+    The remaining 13 GPUs can be allocated in different combinations for foundation model workloads. Two examples of supported configurations include:
+    - 6 medium model instances (each requiring 2 GPUs) and 1 small model instance (1 GPU)
+    - 2 large model instances (each requiring 4 GPUs) and 5 small model instances (1 GPU each)
+
+    This configuration allows for:
+    - Up to 250 concurrent users in the Prompt Lab
+    - 5 active machine learning model deployments
+    - 10 active JupyterLab or notebook environments
+
+    Alternative GPU types and configurations are possible through custom sizing, and users should consult the Custom Sizing guidelines to verify Virtual Private Cloud (VPC) requirements.
+  questions_and_answers:
+    - question: |
+        How many total GPUs are supported in the scaled watsonx.ai configuration?
+      answer: |
+        The scaled deployment supports up to 14 NVIDIA A100 or H100 80GB GPUs.
+    - question: |
+        How many GPUs are reserved for prompt tuning?
+      answer: |
+        One GPU is dedicated to prompt tuning jobs via the Tuning Studio.
+    - question: |
+        What are the example allocations for the remaining GPUs?
+      answer: |
+        Example allocations include:
+        - 6 medium model instances (2 GPUs each) + 1 small model instance (1 GPU)
+        - 2 large model instances (4 GPUs each) + 5 small model instances (1 GPU each)
+    - question: |
+        How many users can access the Prompt Lab concurrently in this setup?
+      answer: |
+        Up to 250 concurrent users are supported in the Prompt Lab.
+    - question: |
+        How many JupyterLab environments and ML deployments are supported?
+      answer: |
+        The configuration supports 10 active JupyterLab or notebook environments and 5 active machine learning model deployments.
+    - question: |
+        Can alternative GPU types be used in this configuration?
+      answer: |
+        Yes, alternative GPU flavors can be configured through custom sizing.
+- context: |
+    A high-capacity deployment of IBM watsonx.ai is sized to support up to 20 total NVIDIA A100 or H100 80GB GPUs. Customers must provide their own GPUs, which are allocated between foundation model instances and prompt tuning. Two GPUs are dedicated to parallel prompt tuning jobs via the Tuning Studio.
+
+    The remaining 18 GPUs can be assigned to foundation model workloads in various combinations. Example configurations include:
+    - 7 medium model instances (2 GPUs each) and 4 small model instances (1 GPU each)
+    - 2 large model instances (4 GPUs each), 1 medium instance (2 GPUs), and 8 small model instances (1 GPU each)
+
+    This configuration allows for:
+    - Up to 250 concurrent users in the Prompt Lab
+    - 5 active machine learning model deployments
+    - 10 active JupyterLab or notebook environments
+
+    Custom GPU configurations are possible using the Custom Sizing process. Users should verify their Virtual Private Cloud (VPC) requirements accordingly.
+  questions_and_answers:
+    - question: |
+        How many GPUs are supported in the high-capacity watsonx.ai configuration?
+      answer: |
+        This deployment supports up to 20 NVIDIA A100 or H100 80GB GPUs.
+    - question: |
+        How many GPUs are allocated for prompt tuning?
+      answer: |
+        Two GPUs are reserved for parallel prompt tuning jobs via the Tuning Studio.
+    - question: |
+        What are the example model instance combinations for the remaining GPUs?
+      answer: |
+        Example allocations include:
+        - 7 medium model instances (2 GPUs each) and 4 small model instances (1 GPU each)
+        - 2 large model instances (4 GPUs each), 1 medium instance (2 GPUs), and 8 small instances (1 GPU each)
+    - question: |
+        How many users can use the Prompt Lab concurrently?
+      answer: |
+        The configuration supports up to 250 concurrent users in the Prompt Lab.
+    - question: |
+        What active runtime environments are supported in this setup?
+      answer: |
+        It supports 5 active machine learning deployments and 10 active JupyterLab or notebook environments.
+    - question: |
+        Can this configuration use different GPU types?
+      answer: |
+        Yes, alternative GPU types can be configured through the custom sizing option.
